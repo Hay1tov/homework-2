@@ -11,6 +11,12 @@
   --main-font: Poppins;
 }
 
+body {
+  background: url('../images/image.png') no-repeat center center/cover;
+  height: 100vh;
+  backdrop-filter: blur(3px); 
+}
+
 nav {
   width: 1400px;
   height: 100%;
@@ -68,9 +74,3 @@ a {
   text-shadow: 0 0 10px white;
 }
 
-.hero {
-  background: url('../images/image.png') no-repeat center center/cover;
-  height: 100vh;
-  position: relative;
-  filter: blur(0);
-}
