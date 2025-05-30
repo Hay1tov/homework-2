@@ -59,7 +59,7 @@ a {
 }
 
 .social_icons a:hover {
-  box-shadow: 0 0 15px darkgray;
+  box-shadow: 0 0 15px black;
 }
 
 .header_elements a {
@@ -71,6 +71,55 @@ a {
 }
 
 .header_elements a:hover{
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px black;
 }
 
+.department {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+
+.welcome h1 {
+  color: var(--manin-color);
+  font-size: 50px;
+  font-family: var(--main-font);
+  margin-bottom: 20px;
+}
+
+.text p {
+  color: var(--manin-color);
+  font-size: 17px;
+  line-height: 32px;
+  font-family: var(--main-font);
+  margin-bottom: 40px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button button {
+  width: 150px;
+  height: 45px;
+  border-radius: 6px;
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+
+.btn1 {
+  border: none;
+  background-color: var(--manin-color);
+  color: black;
+}
+
+.btn2 {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
