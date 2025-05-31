@@ -121,6 +121,10 @@ a {
   color: black;
 }
 
+.btn1:active {
+  transform: scale(0.9);
+}
+
 .btn2 {
   border: 2px solid white;
   background-color: transparent;
@@ -133,4 +137,8 @@ a {
   transform: translate(0px, -10px);
   box-shadow: inset 0 -100px 0 0 white;
   color: black;
+}
+
+.btn2:active {
+  transform: scale(0.9);
 }
