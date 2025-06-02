@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div>
+        <img src="./images/logo.png" alt="Company Logo" class="logo">
+      </div>
+      <nav>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+        <div class="button">
+          <a href="#">Log in</a>
+          <a href="#">Open an account</a>
+          <a href="#">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div class="section-container">
+      <div class="section-logo">
+        <img src="./images/logo.png" alt="Company Logo">
+      </div>
+      <div class="info">
+        <h1>Welcome to ByTrend!</h1>
+        <p>Already have an account? <a href="#" class="login">Log in</a></p>
+      </div>
+
+      <form>
+        <div class="name">
+          <div>
+            <label for="first-name">First name*</label>
+            <input type="text" id="first-name" placeholder="First name" required>
+          </div>
+          <div>
+            <label for="last-name">Last name*</label>
+            <input type="text" id="last-name" placeholder="Your surname" required>
+          </div>
+        </div>
+        <div class="date">
+          <label for="birthday">Birth date*</label><br>
+          <input type="date" required>
+        </div>
+        <div class="gender">
+          <div>
+            <label for="">Gender*</label><br>
+            <label class="option">
+              <input type="radio" name="gender" value="female" required>
+              <span>Female</span>
+            </label>
+          </div>
+          <div>
+            <br>
+            <label class="option">
+              <input type="radio" name="gender" value="male"required>
+              <span>Male</span>
+            </label>
+          </div>
+        </div>
+        <div class="skype">
+          <label for="skype">Skype*</label><br>
+          <input type="text" id="skype" placeholder="Your login Skype" required>
+        </div>
+        <div class="promo">
+          <label for="promo">Promo*</label><br>
+          <input type="password" id="promo" placeholder="Your promo"required>
+        </div>
+        <div class="button2">
+          <button type="submit"><a href="#">Continue →</a></button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+  </footer>
+</body>
+
+</html>
