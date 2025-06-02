@@ -63,7 +63,7 @@ nav>a {
 
 section {
   width: 496px;
-  height: 790px;
+  height: 641px;
   background-color: white;
   border-radius: 5px;
   margin: 24px auto 0 auto;
@@ -110,10 +110,6 @@ section {
   margin-top: 39.08px;
 }
 
-.email input::placeholder {
-  color: #aaa;
-}
-
 .email input {
   margin-top: 8px;
   margin-bottom: 24px;
@@ -126,62 +122,7 @@ section {
   width: 410px;
 }
 
-.email {
-  margin-top: 39.08px;
-}
-
-.phone input::placeholder {
-  color: #aaa;
-}
-
-.phone input {
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-size: 16px;
-  font-family: Kalam;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  width: 410px;
-}
-
-.country {
-  display: flex;
-  justify-content: space-between;
-}
-
-label {
-  font-size: 16px;
-  font-family: Roboto;
-}
-
-#country {
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-family: Kalam;
-  letter-spacing: 1px;
-  padding: 9px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  width: 200px;
-}
-
-
-.country input {
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-family: Kalam;
-  letter-spacing: 1px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  width: 200px;
-}
-
-.country input::placeholder {
+.email input::placeholder {
   color: #aaa;
 }
 
@@ -201,23 +142,6 @@ label {
   width: 410px;
 }
 
-
-.coniform input {
-  margin-top: 8px;
-  margin-bottom: 24px;
-  font-size: 16px;
-  font-family: Kalam;
-  padding: 10px;
-  border: 1px solid #fb3838;
-  border-radius: 6px;
-  font-size: 14px;
-  width: 410px;
-}
-
-.coniform input::placeholder {
-  color: #aaa;
-}
-
 .button2 button {
   width: 416px;
   height: 48px;
@@ -225,6 +149,7 @@ label {
   border-radius: 6px;
   font-size: 16px;
   background-color: #01bab2;
+  margin-top: 87.23px;
 }
 
 .button2 a {
@@ -239,8 +164,4 @@ footer p {
   text-align: center;
   margin-top: 64px;
   margin-bottom: 24px;
-}
-
-footer span  {
-  color: #01bab3;
 }
